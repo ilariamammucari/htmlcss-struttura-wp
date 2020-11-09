@@ -24,7 +24,7 @@ body {
 .container {
 	width: 100%;
 	height: 100vh;
-	padding: 20px 300px;
+	padding: 20px 50px;
 }
 
 /* intestazione */
@@ -46,17 +46,17 @@ main .col-left {
 }
 
 main .corpo-principale {
-	width: calc(60% - 40px);
+	width: calc(60% - 80px);
 	height: 600px;
 	background-color: lightgreen;
-	margin: 0 20px;
+	margin: 0 40px;
 }
 
 main .col-right {
 	width: 20%;
 	height: 100%;
+	overflow: hidden;
 }
-
 main .col-right .widget {
 	height: calc(100% / 3 - 15px);
 	background-color: pink;
