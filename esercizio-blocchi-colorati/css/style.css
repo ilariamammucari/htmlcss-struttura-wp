@@ -35,7 +35,6 @@ header {
 
 /* parte centrale */
 main {
-	height: 100%;
 	margin: 10px 0;
 }
 
@@ -54,11 +53,9 @@ main .corpo-principale {
 
 main .col-right {
 	width: 20%;
-	height: 100%;
-	overflow: hidden;
 }
 main .col-right .widget {
-	height: calc(100% / 3 - 15px);
+	height: 500px;
 	background-color: pink;
 	margin-bottom: 15px;
 }
